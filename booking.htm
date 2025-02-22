@@ -1,0 +1,55 @@
+<!--
+Name - Hemish Patel
+Student ID - 23191251
+User login - fwf4929
+-->
+
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Booking Form</title>
+        <link rel="stylesheet" href="booking.css">
+	<script type="text/javascript" src="xhr.js"></script>
+    <script type="text/javascript" src="booking.js"></script>
+</head>
+<body>
+    <h1>Booking Form</h1>
+    <form id="bookingForm">
+        <label for="cname">Customer Name:</label>
+        <input type="text" id="cname" name="cname" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required><br><br>
+
+        <label for="unumber">Unit Number:</label>
+        <input type="text" id="unumber" name="unumber"><br><br>
+
+        <label for="snumber">Street Number:</label>
+        <input type="text" id="snumber" name="snumber" required><br><br>
+
+        <label for="stname">Street Name:</label>
+        <input type="text" id="stname" name="stname" required><br><br>
+
+        <label for="sbname">Suburb:</label>
+        <input type="text" id="sbname" name="sbname" required><br><br>
+
+        <label for="dsbname">Destination Suburb:</label>
+        <input type="text" id="dsbname" name="dsbname" required><br><br>
+
+        <label for="date">Pick-Up Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="time">Pick-Up Time:</label>
+        <input type="time" id="time" name="time"><br><br>
+
+        <button type="button" onClick="getData('booking.php', 'reference',
+            document.getElementById('cname').value, document.getElementById('phone').value,
+            document.getElementById('unumber').value, document.getElementById('snumber').value,
+            document.getElementById('stname').value, document.getElementById('sbname').value,
+            document.getElementById('dsbname').value, document.getElementById('date').value,
+            document.getElementById('time').value)">Submit Booking</button>
+    </form>
+    <div id="reference" class="reference"></div>
+</body>
+</html>

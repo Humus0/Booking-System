@@ -1,0 +1,117 @@
+/*
+Name - Hemish Patel
+Student ID - 23191251
+User login - fwf4929
+*/
+
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #000000; /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #000000; /* Text color */
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #000000; /* Text color */
+}
+
+/* Form styling */
+#bookingForm {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#bookingForm input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#bookingForm button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue button */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#bookingForm button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Table styling */
+.content {
+    max-width: 950px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Ensure the table can scroll horizontally if needed */
+}
+.reference {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff; /* White background */
+    border-radius: 12px;
+    border: 6px solid #f2cd37;
+    overflow-x: auto; /* Ensure the table can scroll horizontally if needed */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #ffffff; /* White background */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: centre;
+}
+
+th {
+    background-color: #f2f2f2; /* Light grey */
+}
+
+/* Button inside table */
+table button {
+    padding: 5px 10px;
+    background-color: #f2cd37; /* Yellow button */
+    color: #000000; /* Black text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+table button:hover {
+    background-color: #e6b600; /* Darker yellow on hover */
+}

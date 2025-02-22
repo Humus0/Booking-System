@@ -1,0 +1,26 @@
+<!--
+Name - Hemish Patel
+Student ID - 23191251
+User login - fwf4929
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="booking.css">
+    <script type="text/javascript" src="xhr.js"></script>
+    <script type="text/javascript" src="admin.js"></script>
+</head>
+<body>
+    <h1>Booking Form</h1>
+    <form id="bookingForm">
+        <input type="text" id="bsearch" name="bsearch" placeholder="Enter Booking Reference Number"><br><br>
+        <button type="button" name="sbutton" onClick="getQuery('admin.php', 'content', document.getElementById('bsearch').value)">Submit Search</button>
+    </form>
+    <div class="content">
+    </div>
+</body>
+</html>

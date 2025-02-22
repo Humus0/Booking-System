@@ -1,0 +1,14 @@
+
+Name - Hemish Patel
+Student ID - 23191251
+User login - fwf4929
+
+
+
+UPDATE stats SET status = 'Assigned' WHERE booking_number = '$booking_num';
+SELECT * FROM stats 
+WHERE CONCAT(date, ' ', time) BETWEEN NOW() AND NOW() + INTERVAL 2 HOUR;
+SELECT * FROM stats WHERE booking_number LIKE '%$search%';
+SELECT * FROM stats;
+INSERT INTO stats (booking_number, customer_input, phone, unit_number, st_num, st_name, pickup_sub, destination_sub, date, time, status) 
+VALUES ('$ref_num', '$name', '$phone', '$unumber', '$snumber', '$stname', '$sbname', '$dsbname', '$date', '$time', 'Unassigned');

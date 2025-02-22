@@ -1,0 +1,13 @@
+CREATE TABLE `stats` (
+  `booking_number` varchar(25) NOT NULL,
+  `customer_input` varchar(50) NOT NULL,
+  `phone` varchar(50) NOT NULL,
+  `unit_number` varchar(50) NOT NULL,
+  `st_num` varchar(50) NOT NULL,
+  `st_name` varchar(50) NOT NULL,
+  `pickup_sub` varchar(50) NOT NULL,
+  `destination_sub` varchar(50) NOT NULL,
+  `date` date NOT NULL,
+  `time` time NOT NULL,
+  `status` varchar(50) NOT NULL
+)
